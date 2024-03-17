@@ -1,0 +1,21 @@
+
+<div class="container">
+    <div class="heading">
+        <h1>Welcome To Project</h1>
+        <a class="btn btn-sucsess" href="/article/new">HOME</a>
+    </div>
+    <div class="single_post"></div>
+    <h1><%= article.title %></h1>
+    <p>
+        <%= article.des %>
+    </p>
+    <b><% article.Info %></b>
+
+    <h5 class="date">
+        <i><%= article.createdAt.tiLocalDateString() %> </i>
+    </h5>
+</div>
+
+
+
+
